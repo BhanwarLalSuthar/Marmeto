@@ -1,0 +1,229 @@
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+.marmeto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+}
+.marmeto h1{
+  font-size: 34px;
+}
+
+.nav-bar {
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+.nav-ele ul{
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  gap: 75px;
+
+}
+
+.icons ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  font-size: 25px;
+}
+
+
+
+.banner {
+  background: url('./assests/banner.png') no-repeat center/cover;
+  padding: 50px;
+  text-align: center;
+  height: 316px;
+  color: #333;
+  position: relative;
+}
+
+.banner-1 img{
+  width: 50px;
+  margin: 0 auto;
+}
+.banner-1 h1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 48px;
+}
+.banner-1{
+  position: absolute;
+  top: 30%;
+  left: 47%;
+}
+
+.banner-2{
+  position: absolute;
+  top: 57%;
+  left: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  gap: 10px;
+}
+
+main{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-container {
+  display: flex;
+  padding: 40px;
+  gap:30px;
+  margin-left: -50px;
+  /* justify-content: space-between; */
+}
+
+.cart-table {
+  width: 1100px;
+  border-collapse: collapse;
+ 
+}
+
+.cart-table th, .cart-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #F9F1E7;
+  font-weight: bold;
+}
+
+.cart-table thead{
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+/* .product {
+  display: flex;
+  align-items: center;
+  gap: 15px; */
+/* } */
+
+.product img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #e18c0d;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-totals {
+  margin-top: 40px;
+  background-color: #F9F1E7;
+  padding: 20px 100px 100px 100px;
+  border-radius: 8px;
+  width: 393px;
+}
+
+.cart-totals h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.totals p {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin: 10px 0;
+}
+
+.totals{
+  padding-top: 15px;
+}
+
+.total-price {
+  color: #B88E2F;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtotal{
+  color: gray;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.checkout-btn:hover {
+  background-color: #f0f0f0;
+}
+  
+footer{
+  margin-top: 70px;
+}
+
+footer div {
+  
+  background-color:#FAF3EA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+}
+
+.service {
+  font-size: 30px;
+}
+
+.service p{
+  font-weight: bolder;
+}
+.Fa{
+  font-size: 70px;
+  padding-right: 10px;
+}
+small{
+  font-weight: lighter;
+  color: gray;
+}
